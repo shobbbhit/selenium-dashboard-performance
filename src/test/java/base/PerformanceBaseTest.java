@@ -48,10 +48,20 @@ public class PerformanceBaseTest {
 
         WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--start-maximized");
-        options.addArguments("--disable-notifications");
-        options.addArguments("--disable-cache");
-        options.setExperimentalOption("excludeSwitches", List.of("enable-automation"));
+options.addArguments("--disable-notifications");
+options.addArguments("--disable-cache");
+options.addArguments("--no-sandbox");
+options.addArguments("--disable-dev-shm-usage");
+options.addArguments("--remote-allow-origins=*");
+
+// If running in CI (GitHub Actions), run headless
+if (System.getenv("CI") != null) {
+    options.addArguments("--headless=new");
+    options.addArguments("--window-size=1920,1080");
+}
+
+driver = new ChromeDriver(options);
+
 
         driver = new ChromeDriver(options);
         wait = new WebDriverWait(driver, Duration.ofSeconds(25));

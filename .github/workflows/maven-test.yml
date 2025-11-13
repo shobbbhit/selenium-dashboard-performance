@@ -1,0 +1,46 @@
+name: 🧪 Selenium TestNG CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+
+      - name: ☕ Set up Java 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: 🧰 Cache Maven packages
+        uses: actions/cache@v4
+        with:
+          path: ~/.m2
+          key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
+          restore-keys: ${{ runner.os }}-m2
+
+      - name: 🏗️ Build with Maven
+        run: mvn -B clean compile
+
+      - name: 🧪 Run TestNG Tests
+        run: mvn test
+
+      - name: 📊 Archive test results (HTML + Reports)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: selenium-test-output
+          path: |
+            target/surefire-reports/
+            test-output/
+            Selenium_Testing_Report_Document.docx

@@ -1,0 +1,148 @@
+label,duration_ms,timestamp
+Open login page,2568,1762944948153
+Open login page,3780,1762945044517
+Open login page,5169,1762945558781
+Login and wait for dashboard,36705,1762945595489
+Open filter panel,187,1762945595973
+Apply filters & reload data,497,1762945596666
+Verify KPI cards are present & numeric,2294,1762945598961
+Open login page,6234,1762945901755
+Login and wait for dashboard,39730,1762945941488
+Open filter panel,180,1762945941977
+Apply filters & reload data,565,1762945942791
+Verify KPI cards are present & numeric,4392,1762945947185
+Open login page,7686,1762946785176
+Login and wait for dashboard,42297,1762946827478
+Open filter panel,139,1762946827942
+Apply filters & reload data,444,1762946828594
+Verify KPI cards are present & numeric,2245,1762946830839
+Open login page,6179,1762947095636
+Login and wait for dashboard,34616,1762947130324
+Open filter panel,168,1762947130779
+Apply filters & reload data,519,1762947131519
+Verify KPI cards are present & numeric,2208,1762947133728
+Open login page,3380,1762947375333
+Login and wait for dashboard,55699,1762947431159
+Open filter panel,223,1762947431684
+Apply filters & reload data,561,1762947432471
+Verify KPI cards are present & numeric,2811,1762947435282
+Open login page,4494,1762947692192
+Login and wait for dashboard,40472,1762947732667
+Open filter panel,145,1762947733087
+Apply filters & reload data,865,1762947734186
+Verify KPI cards are present & numeric,2602,1762947736790
+Country table load & rows,323,1762947737313
+Graph rendering,40,1762947737710
+Open login page,4936,1762947806863
+Login and wait for dashboard,41415,1762947848284
+Open login page,4435,1763010601951
+Login and wait for dashboard,13730,1763010615687
+Open filter panel,201,1763010616336
+Apply filters & reload data,503,1763010617123
+Verify KPI cards are present & numeric,4390,1763010621513
+Country table load & rows,69,1763010621787
+Graph rendering,48,1763010622047
+Open login page,2068,1763010806013
+Login and wait for dashboard,13946,1763010819963
+Open filter panel,228,1763010820512
+Apply filters & reload data,498,1763010821198
+Verify KPI cards are present & numeric,4318,1763010825516
+Country table load & rows,52,1763010825793
+Graph rendering,55,1763010826047
+Open login page,2212,1763011395686
+Login and wait for dashboard,12103,1763011407793
+Open filter panel,146,1763011408286
+Apply filters & reload data,471,1763011409007
+Verify KPI cards are present & numeric,3853,1763011412860
+Country table load & rows,61,1763011413117
+Graph rendering,63,1763011413382
+Open login page,4113,1763011486706
+Login and wait for dashboard,10693,1763011497406
+Open login page,2125,1763011857626
+Login and wait for dashboard,14866,1763011872604
+Open filter panel,280,1763011873219
+Apply filters & reload data,511,1763011873946
+Verify KPI cards are present & numeric,5003,1763011878950
+Open login page,2116,1763012061785
+Login and wait for dashboard,16263,1763012078050
+Open filter panel,150,1763012078501
+Apply filters & reload data,552,1763012079272
+Verify KPI cards are present & numeric,5115,1763012084387
+Country table load & rows,52,1763012084608
+Graph rendering,42,1763012084872
+Open login page,1897,1763012219464
+Login and wait for dashboard,11878,1763012231346
+Open filter panel,208,1763012231920
+Apply filters & reload data,485,1763012232617
+Verify KPI cards are present & numeric,3859,1763012236478
+Country table load & rows,62,1763012236734
+Graph rendering,37,1763012237001
+Open login page,2226,1763012378210
+Login and wait for dashboard,10423,1763012388636
+Open filter panel,203,1763012389126
+Apply filters & reload data,537,1763012389872
+Verify KPI cards are present & numeric,3823,1763012393697
+Country table load & rows,48,1763012393927
+Graph rendering,42,1763012394187
+Open login page,5315,1763012572935
+Login and wait for dashboard,12566,1763012585505
+Open filter panel,161,1763012585969
+Apply filters & reload data,493,1763012586689
+Verify KPI cards are present & numeric,6840,1763012593529
+Country table load & rows,65,1763012593779
+Graph rendering,50,1763012594050
+Open login page,2508,1763012758763
+Login and wait for dashboard,13585,1763012772400
+Open filter panel,132,1763012772826
+Apply filters & reload data,467,1763012773493
+Verify KPI cards are present & numeric,3289,1763012776784
+Country table load & rows,70,1763012777067
+Graph rendering,56,1763012777333
+Open login page,2760,1763013361702
+Login and wait for dashboard,13263,1763013374968
+Open filter panel,990,1763013376410
+Apply filters & reload data,583,1763013378187
+Verify KPI cards are present & numeric,2823,1763013381010
+Open login page,2256,1763013513917
+Login and wait for dashboard,11285,1763013525208
+Open filter panel,166,1763013525745
+Apply filters & reload data,484,1763013526451
+Verify KPI cards are present & numeric,3324,1763013529775
+Country table load & rows,20261,1763013550236
+Graph rendering,49,1763013550468
+Open login page,2514,1763013860354
+Login and wait for dashboard,11082,1763013871442
+Open filter panel,155,1763013871949
+Apply filters & reload data,510,1763013872703
+Verify KPI cards are present & numeric,3444,1763013876149
+Country table load & rows,20269,1763013896616
+Graph rendering,50,1763013896850
+Open login page,2315,1763014297481
+Login and wait for dashboard,11181,1763014308734
+Open filter panel,233,1763014309385
+Apply filters & reload data,622,1763014310219
+Verify KPI cards are present & numeric,3466,1763014313685
+Country table load & rows,72,1763014313939
+Graph rendering,44,1763014314197
+Open login page,2023,1763014399668
+Login and wait for dashboard,11027,1763014410698
+Open filter panel,186,1763014411202
+Apply filters & reload data,533,1763014411975
+Verify KPI cards are present & numeric,3353,1763014415330
+Country table load & rows,127,1763014415709
+Graph rendering,51,1763014416007
+Open login page,2769,1763014850127
+Login and wait for dashboard,12517,1763014862765
+Open filter panel,224,1763014863287
+Apply filters & reload data,493,1763014864030
+Verify KPI cards are present & numeric,3460,1763014867490
+Country table load & rows,82,1763014867911
+Graph rendering,42,1763014868143
+Open login page,2111,1763014959697
+Login and wait for dashboard,12656,1763014972356
+Open filter panel,204,1763014972930
+Apply filters & reload data,1040,1763014974174
+Verify KPI cards are present & numeric,4514,1763014978702
+Country table load & rows,71,1763014978981
+Graph rendering,49,1763014979250
+Pre/Post application counts,311,1763014979756

@@ -1,0 +1,7 @@
+tests\DashboardPerformanceTest.class
+utils\CsvLogger.class
+utils\ReportManager.class
+pages\LoginPage.class
+pages\DashboardPage.class
+utils\NetworkEntry.class
+base\PerformanceBaseTest.class
